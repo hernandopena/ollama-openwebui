@@ -177,6 +177,5 @@ Ahora podrás acceder al modelo personalizado desde la interfaz de OpenWebUI.
 
 Guía elaborada para FLISOL 2025 — Instalación y personalización de modelos IA para ciberseguridad en Ubuntu 24.04.
 
----
-
-¿Quieres que agregue instrucciones para solucionar errores comunes o recomendaciones de seguridad adicionales? ¿O la dejamos así, lista para publicar?
+CSIRT Academico Unad
+Hernando José Peña H. - Luis Fernando Zambrano
