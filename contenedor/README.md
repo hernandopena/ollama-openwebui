@@ -54,7 +54,7 @@ docker network create \
 
 # Lanzar el contenedor
 
-Ingresar al directorio en donde se encuentra el archivo "docker-compose.yml" y lanzar los comandos
+Ingresar al directorio en donde se encuentra el archivo `docker-compose.yml` y lanzar los comandos
 
 ```bash
 docker-compose up --build -d
