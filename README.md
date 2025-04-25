@@ -97,6 +97,8 @@ Accede desde tu navegador en:
 `http://IP_DEL_SERVIDOR:3000`  
 Registra un usuario administrador y contraseña para acceder a la plataforma.
 
+![Verificacion del servicio en un navegador web](img/ollama-010.png)
+
 ---
 
 ## **6. Integración de Ollama y los modelos en OpenWebUI**
