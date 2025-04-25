@@ -195,10 +195,10 @@ Guarda el archivo, por ejemplo, como `modeloBaseCiberseguridadFlisol2025`.
 cd /ruta/a/tu/modelo_guardado
 ollama create IACSIRT -f modeloBaseCiberseguridadFlisol2025
 ```
-![Cargamos desde consola el nuevo modelo generado](img/ollama-014.png)
+![Cargamos desde consola el nuevo modelo generado](img/ollama-015.png)
 
 Ahora podrás acceder al modelo personalizado desde la interfaz de OpenWebUI.
-![Uso del nuevo modelo en OpenWebUI](img/ollama-015.png)
+![Uso del nuevo modelo en OpenWebUI](img/ollama-016.png)
  
 ---
 
