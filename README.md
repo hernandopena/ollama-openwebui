@@ -112,9 +112,12 @@ Edita el servicio de Ollama:
 ```bash
 sudo nano /etc/systemd/system/ollama.service
 ```
+Agrega o modifica la instrucción para que Ollama escuche desde cualquier origen, justo en el apartado de Service, como se muestra a continuación.
+```bash
+Environment="OLLAMA_HOST=0.0.0.0"
+```
 ![Habilitacion de la consulta a traves de la API en ollama](img/ollama-012.png)
 
-Agrega o modifica la instrucción para que Ollama escuche desde cualquier origen.
 
 Guarda y recarga los servicios del sistema:
 ```bash
@@ -130,7 +133,10 @@ En la configuración de OpenWebUI:
 - En “URL del servidor Ollama”, usa:  
   `http://host.docker.internal:11434`
 
+![Habilitamos la conexión entre Ollama y OpenWebUI](img/ollama-013.png)
+
 Verifica que OpenWebUI reconoce y puede comunicarse con Ollama.
+![Verificamos la conexión](img/ollama-014.png)
 
 ---
 
