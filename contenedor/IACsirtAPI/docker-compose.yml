@@ -1,0 +1,49 @@
+services:
+  iacsirtapi:
+    container_name: iacsirtapi
+    hostname: iacsirtapi
+    build: .
+    restart: always
+    env_file:
+      - .env  
+    environment:
+      - TZ=America/Bogota      
+      - GEMINI_API_KEY=${GEMINI_API_KEY}
+    networks:
+      - themisNetwork
+    ports:
+      - "9000:9000"
+
+networks:
+  themisNetwork:
+    external: true
+
+#CREAR LA RED PRIMERO
+# docker network create \
+  # --driver bridge \
+  # --subnet 10.101.0.0/16 \
+  # --gateway 10.101.0.1 \
+  # --attachable \
+  # themisNetwork 
+
+
+#COMANDOS
+#CONTRUIR E INICIAR: docker-compose up --build -d
+#DETENER: docker-compose down
+#INICIAR YA CONSTRUIDO: docker-compose up -d
+#TERMINAL: docker exec -it iacsirtapi /bin/bash
+#LOGS: docker logs -f iacsirtapi
+
+# VER ESPACIO OCUPADO POR DOCKER: docker system df
+# RECLAMAR ESPACIO EN DOCKER NO UTILZADO: docker system prune
+
+# FORZAR COMPILAR CONTENEDOR: 
+    # docker compose build --no-cache
+    # docker compose up --force-recreate --build
+
+#test  
+#curl -X POST http://localhost:9000/chat \
+#  -H "Content-Type: application/json" \
+#  -d '{"message": "¿Qué es un CSIRT?", "context": []}'
+
+
