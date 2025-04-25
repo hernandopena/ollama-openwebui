@@ -37,6 +37,25 @@ Sigue los pasos a continuación para obtener la tuya:
 
 ---
 
+# Crear la red en docker
+
+Crear la red interna en docker primero
+
+
+```bash
+docker network create \
+  --driver bridge \
+  --subnet 10.101.0.0/16 \
+  --gateway 10.101.0.1 \
+  --attachable \
+  themisNetwork 
+```
+
+
+
+
+---
+
 # Créditos
 
 Guía elaborada para FLISOL 2025 — Instalación y personalización de modelos IA para ciberseguridad en Ubuntu 24.04.
