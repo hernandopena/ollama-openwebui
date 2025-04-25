@@ -27,6 +27,7 @@ sudo apt update && sudo apt upgrade -y
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
 ```
+ <div align="center"> <img src="ollama-001.png" /> </div> 
 
 > El asistente registra Ollama como servicio para que inicie automáticamente con el sistema.
 
@@ -177,5 +178,5 @@ Ahora podrás acceder al modelo personalizado desde la interfaz de OpenWebUI.
 
 Guía elaborada para FLISOL 2025 — Instalación y personalización de modelos IA para ciberseguridad en Ubuntu 24.04.
 
-CSIRT Academico Unad
-Hernando José Peña H. - Luis Fernando Zambrano
+**CSIRT Académico UNAD**  
+**Hernando José Peña H. - Luis Fernando Zambrano**
