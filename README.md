@@ -192,11 +192,13 @@ Guarda el archivo, por ejemplo, como `modeloBaseCiberseguridadFlisol2025`.
 ### Crear el modelo en Ollama
 
 ```bash
-cd /ruta/a/tu/modelos
+cd /ruta/a/tu/modelo_guardado
 ollama create IACSIRT -f modeloBaseCiberseguridadFlisol2025
 ```
+![Cargamos desde consola el nuevo modelo generado](img/ollama-014.png)
 
 Ahora podrás acceder al modelo personalizado desde la interfaz de OpenWebUI.
+![Uso del nuevo modelo en OpenWebUI](img/ollama-015.png)
 
 ---
 
