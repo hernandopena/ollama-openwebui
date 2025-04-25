@@ -41,7 +41,6 @@ Sigue los pasos a continuación para obtener la tuya:
 
 Crear la red interna en docker primero
 
-
 ```bash
 docker network create \
   --driver bridge \
@@ -51,7 +50,27 @@ docker network create \
   themisNetwork 
 ```
 
+---
 
+# Lanzar el contenedor
+
+Ingresar al directorio en donde se encuentra el archivo "docker-compose.yml" y lanzar los comandos
+
+```bash
+docker-compose up --build -d
+```
+
+---
+
+# Verificar su funcionamiento
+
+Desde la consola de comandos, podemos hacer una prueba de la api:
+
+```bash
+curl -X POST http://localhost:9000/chat \
+ -H "Content-Type: application/json" \
+ -d '{"message": "¿Qué es un CSIRT?", "context": []}'
+```
 
 
 ---
