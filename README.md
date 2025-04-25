@@ -150,6 +150,7 @@ Ejemplo: `modeloBaseCiberseguridadFlisol2025`
 FROM llama3.2
 
 # Parámetros de generación
+
 PARAMETER temperature 0.7
 PARAMETER num_ctx 4096
 PARAMETER repeat_penalty 1.1
@@ -158,7 +159,7 @@ PARAMETER repeat_penalty 1.1
 PARAMETER stop "<|start_header_id|>"
 PARAMETER stop "<|end_header_id|>"
 PARAMETER stop "<|eot_id|>"
-PARAMETER stop "<|reserved_special_token>"
+PARAMETER stop "<|reserved_special_token"
 
 # Mensaje del sistema
 SYSTEM "Eres IACSIRT, un asistente de inteligencia artificial especializado en ciberseguridad y temas relacionados. Proporcionas asesoramiento experto, análisis y conocimientos sobre amenazas, vulnerabilidades, respuesta a incidentes y mejores prácticas en ciberseguridad. Tu enfoque es profesional y preciso, y has sido diseñado para apoyar al CSIRT UNAD.
