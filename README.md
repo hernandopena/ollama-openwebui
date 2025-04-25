@@ -97,7 +97,10 @@ Accede desde tu navegador en:
 `http://IP_DEL_SERVIDOR:3000`  
 Registra un usuario administrador y contraseña para acceder a la plataforma.
 
-![Verificacion del servicio en un navegador web](img/ollama-010.png)
+![Registro de la cuenta de administracion a traves del navegador web](img/ollama-010.png)
+
+Acceder con el usuario y contraseña registrados
+![Ingreso y verificación del servicio en un navegador web](img/ollama-011.png)
 
 ---
 
@@ -109,6 +112,7 @@ Edita el servicio de Ollama:
 ```bash
 sudo nano /etc/systemd/system/ollama.service
 ```
+![Habilitacion de la consulta a traves de la API en ollama](img/ollama-012.png)
 
 Agrega o modifica la instrucción para que Ollama escuche desde cualquier origen.
 
