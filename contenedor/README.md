@@ -7,7 +7,7 @@ El presente es un contenedor basico, que ofrece una servicio construido en pytho
 
 # Cómo obtener una API Key de Gemini (Google AI Studio)
 
-Este proyecto requiere una API Key de Gemini para funcionar.  
+Este proyecto requiere una API Key de Gemini para funcionar.
 Sigue los pasos a continuación para obtener la tuya:
 
 ## 1. Accede a Google AI Studio
@@ -37,15 +37,9 @@ Sigue los pasos a continuación para obtener la tuya:
 
 ---
 
-> CSIRT Académico UNAD  
-> Hernando José Peña H. - Luis Fernando Zambrano
-
- 
----
-
 # Créditos
 
 Guía elaborada para FLISOL 2025 — Instalación y personalización de modelos IA para ciberseguridad en Ubuntu 24.04.
 
-**CSIRT Académico UNAD**  
+**CSIRT Académico UNAD**
 **Hernando José Peña H. - Luis Fernando Zambrano**
