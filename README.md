@@ -199,7 +199,7 @@ ollama create IACSIRT -f modeloBaseCiberseguridadFlisol2025
 
 Ahora podrás acceder al modelo personalizado desde la interfaz de OpenWebUI.
 ![Uso del nuevo modelo en OpenWebUI](img/ollama-015.png)
-
+ 
 ---
 
 # Créditos
