@@ -36,7 +36,7 @@ Sigue los pasos a continuación para obtener la tuya:
 
 ## 6. Registrar la API Key
 
-- Copiar la API Key en el archivo ´.env´
+- Copiar la API Key en el archivo `.env`
 
 ```bash
 GEMINI_API_KEY=AQUI_VA_SU_APIKEY_DE_GEMINI
