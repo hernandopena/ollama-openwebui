@@ -36,15 +36,21 @@ Verifica la instalación:
 ```bash
 ollama -v
 ```
-
+![Consulta de version de Ollama](img/ollama-002.png)
 ---
 
 ## **4. Descargar y ejecutar un modelo (ejemplo: llama 3.2 3b)**
 
 ```bash
 ollama pull llama3.2:3b
+```
+![Descarga del modelo llama3.2:3b](img/ollama-003.png)
+
+
+```bash
 ollama run llama3.2:3b
 ```
+![Puesta en marcha del modelo llama3.2:3b](img/ollama-004.png)
 
 ---
 
