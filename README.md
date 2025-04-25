@@ -60,14 +60,19 @@ ollama run llama3.2:3b
 
 ```bash
 sudo apt update
+```
+![Actualización del sistema](img/ollama-005.png)
+
+```bash
 sudo apt install docker-compose -y
 ```
+![Instalación de componentes para Docker](img/ollama-006.png)
 
 Verifica la instalación:
 ```bash
 docker-compose version
 ```
-
+![Verificación de la version instalada de Docker](img/ollama-007.png)
 ---
 
 ### Desplegar OpenWebUI
