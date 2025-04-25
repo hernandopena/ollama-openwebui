@@ -27,7 +27,8 @@ sudo apt update && sudo apt upgrade -y
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
 ```
- <div align="center"> <img src="ollama-001.png" /> </div> 
+![Instalación de Ollama](img/ollama-001.png)
+
 
 > El asistente registra Ollama como servicio para que inicie automáticamente con el sistema.
 
